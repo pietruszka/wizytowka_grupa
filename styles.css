@@ -1,3 +1,182 @@
 #welcome {
     color: blue;
 }
+
+#contact_us
+
+{
+  margin: 0 0;
+  padding: 0;
+}
+#contact_us_header
+{
+    text-align: center;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+    padding: 5%;
+    height: 45px;
+
+}
+
+#slogan
+{
+    text-align: center;
+    color: #777777;
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 20px;
+    font-style: italic;
+    padding: 2%;
+}
+.container
+
+{
+
+  background-image: url("world-map-background-dark.jpg"); 
+  width: auto;
+  height: 678px;
+  background-position: 50% 50%; 
+  background-size: contain;
+  display: block;
+  text-align: center;
+}
+
+.footer
+{
+  background-color: #fff;
+  height: 78px;  
+  width: auto; 
+}
+.socials
+{
+  width: auto;;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: #000;
+  font-size: 40px;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     text-decoration:none; 
+     cursor:pointer;  
+}
+.facebook
+{
+   width: 45px;
+   height: 45px;
+}
+
+.facebook:hover
+{
+
+    background-color: #6695fc;
+}
+.pinterest
+{
+   width: 45px;
+   height: 45px;
+
+
+}
+
+.pinterest:hover
+{
+    background-color: #C92228;
+}
+
+.twitter
+{
+   width: 45px;
+   height: 45px;
+
+}
+
+.twitter:hover
+{
+    background-color: #3095d3;
+}
+
+.gplus
+{
+   width: 45px;
+   height: 45px;
+ 
+
+}
+
+.gplus:hover
+{
+    background-color: #d95333;
+}
+ 
+.copyright p
+{
+    color: #666666;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-align: left;
+    margin-left: 8%;
+}
+
+
+
+.size-xs
+
+{
+
+    height: 29px;
+}
+
+input {
+    width: 455px;
+    height: 55px;
+    border-radius: 4px;
+    border: none;
+    float: left;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+#send_message
+{
+     background-color: #fed136;
+     color:#fff;
+     border: none;
+     font-family: 'Lato', sans-serif;
+     font-size: 14px;
+     font-weight: bold;
+     width: 240px;
+     height: 64px;
+     text-align: center;
+     border-radius: 2px;
+     margin-top: 15px;
+
+}
+
+/*#message
+{
+ 
+    width: 455px;
+    height: 212px;;
+}*/
+
+input::placeholder 
+{
+   color: #bbbbbb;
+   font-family: 'Lato', sans-serif;
+   font-size: 11px;
+   text-align: left;
+}
