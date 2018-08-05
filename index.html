@@ -16,7 +16,7 @@
 <section id="our_team"></section>
 <section id="contact_us">
     <div class="container">
-        <div id="contact_us_header">
+        <div class="header">
             <h1>CONTACT US</h1>
         </div>
         <div id="slogan">
@@ -24,10 +24,13 @@
         </div>
         <div class="personal_information"></div>
             <form action="" method="post" enctype="text/plain">
-                <input type="text" placeholder="YOUR NAME*" name="username" align="left" required>
-                <input type="email" placeholder="YOUR EMAIL*" name="email" align="left" required>
+                <div class="contact_section_form">
+                <input type="text" placeholder="YOUR NAME*" name="username" required>
+                <input type="email" placeholder="YOUR EMAIL*" name="email" required>
                 <input type="text" placeholder="SUBJECT" align="left" name="subject">
-                <button type="submit" id="send_message"align="center">SEND MESSAGE</button>
+                <textarea name="message" placeholder="YOUR MESSAGE*" name="message" required></textarea>
+                </div>
+                <button type="submit" class="send_message" align="center">SEND MESSAGE</button>     
             </form>
         </div>
     </div>
