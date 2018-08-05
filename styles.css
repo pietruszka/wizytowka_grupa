@@ -19,6 +19,7 @@ body {
 }
 
 #team-title {
+    width: 100%;
     font-size: 40px;
     margin-top: 80px;
     margin-bottom: 20px;
@@ -165,5 +166,17 @@ body {
 	.member-item .member-image {
         width: calc(100% - 22px);
         height: calc(100% - 22px);
+    }
+
+    #team-title {
+        font-size: 34px;
+    }
+
+    #team-subtitle {
+        font-size: 14px;
+    }
+
+    #team-description {
+        font-size: 0.8em;
     }
 }
