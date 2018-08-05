@@ -1,4 +1,5 @@
-#welcome {
+#welcome 
+{
     color: blue;
 }
 #contact_us
@@ -18,7 +19,7 @@
 
 }
 
-.container #slogan
+.container .slogan
 {
     text-align: center;
     color: #777777;
@@ -86,7 +87,8 @@
     margin-left: 8%;
 }
 
-.contact_section_form {
+.contact_section_form 
+{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -96,7 +98,8 @@
   box-sizing: border-box;
   margin-left: 18%;
 }
-.contact_section_form * {
+.contact_section_form * 
+{
   width: calc(50% - 10px);
   margin: 0 5px;
   box-sizing: border-box;
@@ -104,11 +107,13 @@
 
 .contact_section_form :nth-child(2),
 .contact_section_form :nth-child(3),
-.contact_section_form :nth-child(3) {
+.contact_section_form :nth-child(3) 
+{
   margin-top: 5px;
 }
  
-.contact_section_form :nth-child(4) {
+.contact_section_form :nth-child(4) 
+{
   height: 100%;
 }
 
@@ -121,7 +126,8 @@
     margin-left: 30px;
 
 }
-.contact_section_form textarea {
+.contact_section_form textarea 
+{
     width: 455px;
     border-radius: 4px;
     border: none;
@@ -157,3 +163,5 @@
    font-size: 11px;
    text-align: left;
 }
+
+
