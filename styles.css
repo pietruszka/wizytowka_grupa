@@ -11,19 +11,19 @@
     text-align: center;
     color: #fff;
     font-family: 'Lato', sans-serif;
-    font-size: 38px;
+    font-size: 3em;
     font-weight: bold;
-    padding: 5%;
-    height: 45px;
+    padding: 2%;
+    height: 10%;
 
 }
 
-#slogan
+.container #slogan
 {
     text-align: center;
     color: #777777;
     font-family: 'Gentium Book Basic', serif;
-    font-size: 20px;
+    font-size: 1.4em;
     font-style: italic;
     padding: 2%;
 }
@@ -40,7 +40,7 @@
 .footer
 {
   background-color: #fff;
-  height: 78px;  
+  height: 6.5em;  
   width: auto; 
 }
 .socials
@@ -85,19 +85,16 @@
     text-align: left;
     margin-left: 8%;
 }
-.size-xs
-{
-    height: 29px;
-}
+
 .contact_section_form {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   height: 23vh;
-  width: 65%;
-  border: 1px solid black;  
+  width: 65%; 
   padding: 10px 5px;
   box-sizing: border-box;
+  margin-left: 18%;
 }
 .contact_section_form * {
   width: calc(50% - 10px);
