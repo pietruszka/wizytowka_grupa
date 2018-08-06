@@ -165,3 +165,101 @@
 }
 
 
+#about_us
+{
+	width:100%;
+	background-color: #ffffff;
+	text-align:center;
+}
+
+.all
+{
+	width:100%;
+	margin:auto;
+}
+
+.about_us_nag
+{
+	font-family: Montserrat;
+	font-size:40px;
+	font-weight: 900;
+	padding: 10px 0px;
+}
+
+.about_us_pod
+{
+	font-family:DroidSerif Italic;
+	font-style: italic;
+	font-size: 16px;
+}
+.about_us_container{
+	display: grid;
+	grid-template-columns: 22% 22% 22%;
+	justify-content: center;
+	width: 100%;
+}
+.about_us_box{
+	padding: 20px;
+}
+.about_us_nav{
+	display:flex;
+	justify-content: center;
+	padding-top: 0px;
+}
+
+.nav-item
+{
+	border-radius: 100%;
+	border:solid 1px #fed136;
+	width: 72px;
+	height: 72px;
+	margin: 10px 10px;
+	align-items:center;
+	font-size:28px;
+	color: #fed136;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	
+	
+
+}
+.about_us_podnav
+{		
+	margin-top:20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size:18px;
+	text-align:center;
+	
+
+}
+
+.about_us_opis
+{
+	
+	font-family: 'Roboto Slab', serif;
+	font-size:14px;
+	text-align:center;
+	width: 33,333%;
+  
+}
+
+        @media (max-width: 1024px) {
+			.about_us_container{
+				grid-template-columns: 1fr;
+			}
+			.about_us_box{
+				align-items: center;
+			    display: flex;
+			    flex-direction: column;
+			}
+			.about_us_box p{
+				width: 60%;
+			}
+        }
+        @media (max-width: 600px) {
+			.about_us_box p{
+				width: 100%;
+			}
+        }
