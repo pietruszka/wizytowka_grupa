@@ -2,6 +2,172 @@
     color: blue;
 }
 
+/* CONTACT-US */
+
+#contact_us
+{
+  margin: 0;
+  padding: 0;
+}
+#contact_us .container .header
+{
+    text-align: center;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    padding: 2%;
+    height: 10%;
+
+}
+
+.container .slogan
+{
+    text-align: center;
+    color: #777777;
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 1.4em;
+    font-style: italic;
+    padding: 2%;
+}
+#contact_us .container
+{
+  background-image: url("images/world-map-background-dark.jpg"); 
+  width: auto;
+  height: 678px;
+  background-position: 50% 50%; 
+  background-size: contain;
+  display: block;
+  text-align: center;
+}
+.footer
+{
+  background-color: #fff;
+  height: 6.5em;  
+  width: auto; 
+}
+.socials
+{
+  width: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: #000;
+  font-size: 40px;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+  padding:5px;
+  text-decoration: none;
+}
+.socials a {
+    color: #000;
+    text-decoration: none;
+}
+.socials a:hover 
+{
+     text-decoration:none; 
+     cursor:pointer;  
+}
+.facebook, .pinterest, .twitter, .gplus
+{
+   width: 45px;
+   height: 45px;
+}
+.facebook:hover, .pinterest:hover, .twitter:hover, .gplus:hover
+{
+    opacity: 0.3
+}
+.copyright p
+{
+    color: #666666;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    text-align: left;
+    margin-left: 8%;
+}
+
+.contact_section_form 
+{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 23vh;
+  width: 65%; 
+  padding: 10px 5px;
+  box-sizing: border-box;
+  margin-left: 18%;
+}
+.contact_section_form * 
+{
+  width: calc(50% - 10px);
+  margin: 0 5px;
+  box-sizing: border-box;
+}
+
+.contact_section_form :nth-child(2),
+.contact_section_form :nth-child(3),
+.contact_section_form :nth-child(3) 
+{
+  margin-top: 5px;
+}
+ 
+.contact_section_form :nth-child(4) 
+{
+  height: 100%;
+}
+
+.contact_section_form input {
+    width: 455px;
+    height: 55px;
+    border-radius: 4px;
+    border: none;
+    margin-top: 15px;
+    margin-left: 30px;
+
+}
+.contact_section_form textarea 
+{
+    width: 455px;
+    border-radius: 4px;
+    border: none;
+    margin-top: 15px;
+    margin-left: 30px;
+
+}
+.send_message
+{
+     background-color: #fed136;
+     color:#fff;
+     border: none;
+     font-family: 'Lato', sans-serif;
+     font-size: 14px;
+     font-weight: bold;
+     width: 240px;
+     height: 64px;
+     text-align: center;
+     border-radius: 2px;
+     margin-top: 15px;
+}
+.contact_section_form input::placeholder 
+{
+   color: #bbbbbb;
+   font-family: 'Lato', sans-serif;
+   font-size: 11px;
+   text-align: left;
+}
+.contact_section_form textarea::placeholder 
+{
+   color: #bbbbbb;
+   font-family: 'Lato', sans-serif;
+   font-size: 11px;
+   text-align: left;
+}
+
+/* OUR-TEAM */
+
 #our_team {
     background-color: #f9f9f9;
     font-family: 'Montserrat', sans-serif;
