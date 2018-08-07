@@ -75,13 +75,13 @@
     font-size: 0.8em;
 }
 
-.team .member .socials {
+.team .member .social-links {
     margin-top: 10px;
     display: flex;
     justify-content: center;
 }
 
-.team .member .socials .item {
+.team .member .social-links .item {
     width: 30px;
     height: 30px;
     margin: 0 8px;
@@ -93,36 +93,36 @@
     transition: all 0.1s ease-in-out;
 }
 
-.team .member .socials .item:hover {
+.team .member .social-links .item:hover {
     cursor: pointer;
 }
 
-.team .member .socials .item:hover a {
+.team .member .social-links .item:hover a {
     color: #ffffff;
 }
 
-.team .member .socials .item:hover:nth-of-type(1) {
+.team .member .social-links .item:hover:nth-of-type(1) {
     background-color: #1da1f2;
     border: 2px solid #1da1f2;
 }
 
-.team .member .socials .item:hover:nth-of-type(2) {
+.team .member .social-links .item:hover:nth-of-type(2) {
     background-color: #3B5998;
     border: 2px solid #3B5998;
 }
 
-.team .member .socials .item:hover:nth-of-type(3) {
+.team .member .social-links .item:hover:nth-of-type(3) {
     background-color: #C92228;
     border: 2px solid #C92228;
 }
 
-.team .member .socials .item:hover:nth-of-type(4) {
+.team .member .social-links .item:hover:nth-of-type(4) {
     background-color: #d34836;
     border: 2px solid #d34836;
 }
 
 
-.team .member .socials .item a {
+.team .member .social-links .item a {
     text-decoration: none;
     color: #000000;
     outline: 0;
