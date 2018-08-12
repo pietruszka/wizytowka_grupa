@@ -1,0 +1,178 @@
+
+
+.bg
+
+{
+    overflow: hidden;
+    background-image: url("img/desk.jpg");  
+     background-repeat: no-repeat; 
+     background-size: cover; 
+     width: 100%;
+     margin: 0px 0px; 
+     height: 60em;   
+      
+     
+}
+
+h1
+{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.7em; 
+    color: rgb(255, 238, 5);
+    margin: 0% 0%; 
+ 
+}
+
+.V_logo
+{
+   margin: 0px 0px; 
+   position: relative;
+   left: 300px;
+   top: 50px; 
+   color: rgb(255, 238, 5);
+   
+}
+
+.upmenu
+{
+    color: #26282b;
+    display: flex;
+    justify-content: flex-end;
+
+    position: relative;
+    top: -30px;
+    left: -200px;
+}
+
+
+.uptext 
+{
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
+   font-size: 1.5em;
+   margin: 20px;
+}
+
+
+.vfirstheader
+{
+  text-align: center;
+  margin: auto;
+  color: #26282b;
+  font-family: 'Cuprum', sans-serif;
+  font-weight: 400; 
+  font-size: 3em; 
+  margin: 0px 0px; 
+  position: relative;
+  top: 40px; 
+
+}
+
+.vsecondheader
+{
+  text-align: center;
+  margin: auto;
+  color: #26282b;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4em; 
+  font-weight: 500; 
+  margin: 0px 0px; 
+}
+
+.vbuttonmaster
+{
+     display: flex;
+    justify-content: center;
+    
+    background-position: center;
+    color: ghostwhite;
+    width: 100%;
+    
+}
+
+.vbutton
+{
+    height: 80px;
+    width: 300px; 
+    background-color: rgb(250, 175, 15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+
+}
+
+.vbutton p1
+{
+     font-family: 'Montserrat', sans-serif;
+    
+    font-weight: 500;
+    font-size: 1.4em; 
+
+}    
+
+
+/* sekcaja resposywna */ 
+
+@media (max-width: 960px) {
+    
+    .bg
+
+{
+    
+    background-image: url("img/desk.jpg");  
+     background-repeat: no-repeat; 
+     /* background-size: cover; */ 
+     width: 100%;
+     margin: 0px 0px; 
+     height: 60em;   
+    
+}
+
+
+    .V_logo
+{
+       margin: 0px 0px; 
+       flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+         position: relative; 
+        
+
+        
+   
+   
+}
+
+    .upmenu {
+        
+      
+    flex-direction: column; 
+     justify-content: center;
+      align-items: center;
+      margin: 0% 0%; 
+      width: 150%;
+     /*  border: 2px solid red; */   
+      
+
+      
+  }
+    .uptext 
+{
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
+   font-size: 1.01em;
+   margin: 1%;
+}
+
+
+
+}
+   
+
+
+
+
+
