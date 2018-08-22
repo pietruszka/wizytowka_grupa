@@ -28,7 +28,7 @@ request.onload = function () {
     }    
 }
 
-
+request.send(); 
 
 var connection = new XMLHttpRequest();
 connection.open(

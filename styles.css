@@ -418,12 +418,13 @@
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: left;
-    height:20%;
+    justify-content: flex-start;
     color: #000;
     font-family: 'Roboto', sans-serif;
     font-size: 38px;
+    margin-left: 100px;
+    padding: 20px;
+    width: 500px;
 }
 
 
